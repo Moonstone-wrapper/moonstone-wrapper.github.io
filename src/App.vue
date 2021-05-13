@@ -30,7 +30,7 @@ export default {
   data() {
     const darkMode = localStorage.getItem('dark-mode');
     return {
-      darkMode: darkMode !== 'false' && darkMode !== null,
+      darkMode: darkMode !== 'false',
       repository: MainSource.repo,
       updateExists: false,
       refreshing: false,

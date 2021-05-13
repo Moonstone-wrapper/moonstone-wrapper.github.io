@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HomePage from '../components/pages/Home.vue';
 import DocumentationPage from '../components/pages/Documentation.vue';
 import UnknownRoutePage from '../components/pages/UnknownRoute.vue';
 import DocsLoader from '../components/docs/Loader.vue';
@@ -14,8 +13,7 @@ Vue.use(VueRouter);
 
 export default new VueRouter({
   routes: [
-    { path: '/', name: 'home', component: HomePage },
-    { path: '/docs', name: 'docs', component: DocumentationPage, children: [
+    { path: '/', name: 'docs', component: DocumentationPage, children: [
       { path: ':source', name: 'docs-source', component: DocsLoader, children: [
         { path: ':tag', name: 'docs-tag', component: DocsViewer, children: [
           { path: 'search', name: 'docs-search', component: DocsSearch },

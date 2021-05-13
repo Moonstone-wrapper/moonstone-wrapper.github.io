@@ -1,12 +1,11 @@
 <template>
   <header>
     <container>
-      <router-link to="/">discord.js</router-link>
+      <router-link to="/docs">Moonstone</router-link>
 
       <nav>
-        <router-link to="/docs">Documentation</router-link><!--
-        --><a :href="`https://github.com/${repository}`">GitHub</a><!--
-        --><a href="https://discordjs.guide/">Guide</a>
+        <a :href="`https://github.com/${repository}`">GitHub</a><!--
+        --><a href="https://discord.gg/hDj42dMhn9">Discord</a>
       </nav>
     </container>
   </header>

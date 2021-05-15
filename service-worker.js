@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.165b247b429863fdb6d63cc40adb5903.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.effad5f1b89ab004d3a8af9d3f2d8abc.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 /* global workbox */
 
